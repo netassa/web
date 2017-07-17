@@ -1,3 +1,57 @@
-a {
-  color: red;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: PingFangSC-Regular, Verdana, Arial, '微软雅黑', '宋体';
+  font-size: 14px;
+}
+
+body#homefirst {
+  font-family: '微软雅黑';
+}
+
+
+/*-------------------------------- header ------------------------------------*/
+
+div#header_index {
+  margin: 0 0 0 12px;
+  padding: 0;
+  width: 1210px;
+  height: 100px;
+  background-color: #fdfcf8;
+}
+
+
+/*-------------------------------- search form -------------------------------*/
+
+div#searchui {
+  margin: 0;
+  padding: 0;
+  width: 306px;
+  height: 100px;
+  background-color: transparent;
+  float: right;
+}
+
+#searchui input.button {
+  margin: 0;
+  padding: 0;
+  background-color: #AE4141;
+  font: 12px Verdana, Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  height: 30px;
+  width: 30px;
+}
+
+#searchui input.box {
+  margin: 0;
+  margin-top: 35px;
+  width: 256px;
+  height: 28px;
+  background: #fdfdfd;
+  font: 12px Verdana, Arial, Helvetica, sans-serif;
+  border: 1px solid #ddd;
 }
